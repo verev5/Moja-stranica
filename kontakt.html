@@ -8,11 +8,19 @@
     </head>
     <body>
         <h1>Moj kontakt</h1>
-        <ul><h3>Adresa</h3>:Karadjordjeva 48</ul>
-        <ul><h3>Telefon</h3>:061/6470022</ul>
-        <ul><h3>Email</h3>:vassasin.jezdovic@gmail.com</ul>
+        <ul>
+        <il><b>Adresa</b>:Karadjordjeva 48<il>
+        <il><b>Telefon</b>:061/6470022</il>
+        <il><b>Email</b>:vassasin.jezdovic@gmail.com</il>
+    </ul>
         <hr></hr>
-        <p>Unesi ime:</p>
-        <p>Unesi email:</p>
-        <p>Unesi poruku:</p>
+        <form action="mailto:vassasin.jezdovic@gmail.com" method="post" enctype="text/plain">
+            <label>Unesi ime:</label>
+            <input type="text" name="tvoje Ime"><br>
+            <label>Unesi email:</label>
+            <input type="email" name="tvojEmail" ><br>
+            <label>Unesi poruku: </label><br>
+            | <textarea name="textPoruke" id="" cols="30" rows="10"></textarea><br>
+            <input type="submit" value="Pošalji">
+            </form>
     </body>
