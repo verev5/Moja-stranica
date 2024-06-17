@@ -1,0 +1,49 @@
+
+#t {
+    color: darkgray;
+    text-align: center;
+    font-size: x-large;
+    margin: 0 auto;
+}
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: block;
+    text-align: center;
+    background-color: rgb(180, 130, 44);
+    padding: 10px;
+}
+
+#tabela {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+div {
+    text-align: center;
+    background-color: moccasin;
+    border: 20px solid black;
+    padding: 20px;
+}
+
+#a {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: blue;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
